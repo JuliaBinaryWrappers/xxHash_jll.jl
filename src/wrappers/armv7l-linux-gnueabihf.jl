@@ -18,7 +18,7 @@ libxxhash_path = ""
 libxxhash_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libxxhash = "libxxhash.so.0.7.4"
+const libxxhash = "libxxhash.so.0.8.0"
 
 
 """

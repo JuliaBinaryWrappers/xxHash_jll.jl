@@ -8,7 +8,7 @@ LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 LIBPATH_default = "~/lib:/usr/local/lib:/lib:/usr/lib"
 
 # Relative path to `libxxhash`
-const libxxhash_splitpath = ["lib", "libxxhash.0.7.4.dylib"]
+const libxxhash_splitpath = ["lib", "libxxhash.0.8.0.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libxxhash_path = ""
@@ -18,7 +18,7 @@ libxxhash_path = ""
 libxxhash_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libxxhash = "@rpath/libxxhash.0.7.4.dylib"
+const libxxhash = "@rpath/libxxhash.0.8.0.dylib"
 
 
 """
