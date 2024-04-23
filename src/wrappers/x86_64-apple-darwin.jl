@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libxxhash,
-        "lib/libxxhash.0.8.1.dylib",
+        "lib/libxxhash.0.8.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
