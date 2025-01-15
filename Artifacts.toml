@@ -1,143 +1,160 @@
 [[xxHash]]
 arch = "aarch64"
-git-tree-sha1 = "97a0a0d0610f2fde2d48c6177f8f8af25570d28a"
+git-tree-sha1 = "981800f8afe1e5cc2e8c7b07f20284bfe087dfbc"
 os = "macos"
 
     [[xxHash.download]]
-    sha256 = "c5c0b3142ab9086095cd9aee5b153e8d132e5793981ff82b731ef878d9214869"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.aarch64-apple-darwin.tar.gz"
+    sha256 = "7b0caabaa160640b63af06b478c3c8ca03201c11e5668b1f7c39cae4dadff477"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.aarch64-apple-darwin.tar.gz"
 [[xxHash]]
 arch = "aarch64"
-git-tree-sha1 = "04da50e74b3ebd6eb0cc39f25701c41c578ff8d4"
+git-tree-sha1 = "0933be76aca53b8d0a374d3b5c2d31df95637546"
 libc = "glibc"
 os = "linux"
 
     [[xxHash.download]]
-    sha256 = "504bc3001d68354cd22515aaa285974adfc6286dd18fb6bd458b7a2444eb99d9"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.aarch64-linux-gnu.tar.gz"
+    sha256 = "abfdbc290e5e3ceb224ae3911e80e14a6679e22b4f412d331def0ed5a47be5e0"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.aarch64-linux-gnu.tar.gz"
 [[xxHash]]
 arch = "aarch64"
-git-tree-sha1 = "8fb32923e516db6515135bcd63fbc2a9135da7fe"
+git-tree-sha1 = "2513d0e865575e1adc68e53645fb58379fad68d0"
 libc = "musl"
 os = "linux"
 
     [[xxHash.download]]
-    sha256 = "d26ba3889858637098a879e9ef3f2cf0938f5a3397b49fa50b2bbca675a89005"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.aarch64-linux-musl.tar.gz"
+    sha256 = "717a23063638fbde9318c8dc7b7ff815de6e1695e13647687c90b4f4c9a47781"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.aarch64-linux-musl.tar.gz"
 [[xxHash]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "11e30a02e2f89a69282ea0f945eb0bfe70ba6147"
-libc = "glibc"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "7e3cb9edbc830b0a40f1eb0f57a1158ab669e9bb733c4ce383cab003475d008e"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.armv6l-linux-gnueabihf.tar.gz"
-[[xxHash]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "0bd449fd3000cb2c7876aeb9d5d74b16e92647d8"
-libc = "musl"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "8feae83d65063754c8d62eac3220744d76abd66f5236c430be5a82862ee375c4"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.armv6l-linux-musleabihf.tar.gz"
-[[xxHash]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "9121789e5fba4a6794bf05edb346ede519d54b9d"
-libc = "glibc"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "5a92a592d7bfe837fd4a1e43c16fb8914892cd42aab724ceb7ec41f4ada1597c"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.armv7l-linux-gnueabihf.tar.gz"
-[[xxHash]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "6de5aeec67d3fe66a9fe31d4e87a376db84c962e"
-libc = "musl"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "2669f8cbc0fa3038619b60ed9a6f5e55b6c0331910f888afd0333f333c2f25ed"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.armv7l-linux-musleabihf.tar.gz"
-[[xxHash]]
-arch = "i686"
-git-tree-sha1 = "185c18e0de22b992a73d19f002f6665637db0492"
-libc = "glibc"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "07549a29c58bb39b828dcd8bc9b680fbbbe452c64c07d9b23c4080594fbaf374"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.i686-linux-gnu.tar.gz"
-[[xxHash]]
-arch = "i686"
-git-tree-sha1 = "21d8a8240f46f641e40159c5fc3b92dec97352f3"
-libc = "musl"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "e13e18058e0522f791ec45b350ef668a0c24dc0311ea2b3e6d7b2a5b7a934871"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.i686-linux-musl.tar.gz"
-[[xxHash]]
-arch = "i686"
-git-tree-sha1 = "abc7b3b9bde942aa25a8c4137d6b30d4db7f06bc"
-os = "windows"
-
-    [[xxHash.download]]
-    sha256 = "6bf11c553fd61430b77012e81530e2a172a7a0e6d9c3260c5acfcbcc0931266d"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.i686-w64-mingw32.tar.gz"
-[[xxHash]]
-arch = "powerpc64le"
-git-tree-sha1 = "50db1955538f087653f46bb16de3c5607fdbd9c7"
-libc = "glibc"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "0ab92d64896647fac60f83959fcf3b85f4610d60f2b5983a5b2ef9c910ac3da4"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.powerpc64le-linux-gnu.tar.gz"
-[[xxHash]]
-arch = "x86_64"
-git-tree-sha1 = "b14a8300e1de943389d2183218793efa0bad16e5"
-os = "macos"
-
-    [[xxHash.download]]
-    sha256 = "0f797dcc9ae8dda10e08ff95a220ff34b7a18f1d255f170bbb6880aea91fc1b7"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.x86_64-apple-darwin.tar.gz"
-[[xxHash]]
-arch = "x86_64"
-git-tree-sha1 = "4b1029071829fded162709ff6fc2d687d2ab7d9f"
-libc = "glibc"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "9c11eef2bdc59042c9589e2ca313f57ad15864ea7432122ed0623075eb826326"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.x86_64-linux-gnu.tar.gz"
-[[xxHash]]
-arch = "x86_64"
-git-tree-sha1 = "63cfeee5cf94eeb3e1b83c2dde92cdabfb130084"
-libc = "musl"
-os = "linux"
-
-    [[xxHash.download]]
-    sha256 = "ef8ebe95e4364cc9968280b529b99173a201af2051bd3cfd03a2ca6719ebcfa8"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.x86_64-linux-musl.tar.gz"
-[[xxHash]]
-arch = "x86_64"
-git-tree-sha1 = "9034e1ee1565df2613cc7c848250ab9c9662215c"
+arch = "aarch64"
+git-tree-sha1 = "444f79cadbbacd0d23521d201cea3efd47550e27"
 os = "freebsd"
 
     [[xxHash.download]]
-    sha256 = "e235c16960b1955b933669c7f08ea88cfb6848cda9cff5c235c00fee135b500f"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "ac3c49032123023b394bbb9eeeaa154a25734cf462ce295ac62dfd0c60d99b5f"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.aarch64-unknown-freebsd.tar.gz"
 [[xxHash]]
-arch = "x86_64"
-git-tree-sha1 = "0ddbf530cb81c28ebc01db76d42befe97a0477c0"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "237c65aaba0d1718483e7d00c015383a58457e9c"
+libc = "glibc"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "f94134b603faa6f6f79b160f2773ce55c5d3ffc6a037fa712fea60ae8dd9bf36"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.armv6l-linux-gnueabihf.tar.gz"
+[[xxHash]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a5f1e359d5f7122c838471326d7fecf6aa6572ef"
+libc = "musl"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "06f4d7d79aa24b39aa6044acd798e28bd303c651222f360f947520666fb13abb"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.armv6l-linux-musleabihf.tar.gz"
+[[xxHash]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6750e78a5b69f296d763071c66ba34fe1ed51dd7"
+libc = "glibc"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "4a4730acd24bc6c5d55c7b6f98e633a4dd781c6eda10a39ac6e812740b0f73b7"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.armv7l-linux-gnueabihf.tar.gz"
+[[xxHash]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "74c41c96dc35bc030dd17f5f75b4a3d71326cd84"
+libc = "musl"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "7ea6ebe8e97fbca8f7cc0e0603ba1bb08208b9d3415f3aa3469a4b9a826dad78"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.armv7l-linux-musleabihf.tar.gz"
+[[xxHash]]
+arch = "i686"
+git-tree-sha1 = "deb1c3bf25d1b92f88e2b567ceb1bdfc55e71c0e"
+libc = "glibc"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "cbc079dc4a95d2fcaacff109c5d2518296fa2b4f0d66947ebe9424d75114ccd2"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.i686-linux-gnu.tar.gz"
+[[xxHash]]
+arch = "i686"
+git-tree-sha1 = "985ec343a58c49b558e8975d7e9fef1d37514724"
+libc = "musl"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "acb1b7f7cc2004fb75d0de2887f6ab0af186c4d47d2e79ec5a6d0a4b7af8d5d3"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.i686-linux-musl.tar.gz"
+[[xxHash]]
+arch = "i686"
+git-tree-sha1 = "b04fcf94f4afc0a33c7263ba81fa655a1d2a26bb"
 os = "windows"
 
     [[xxHash.download]]
-    sha256 = "f2b44656a2e24b44caca80a48f41cdfdc9238dca18cec06206ba93b09860bb7b"
-    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.2+0/xxHash.v0.8.2.x86_64-w64-mingw32.tar.gz"
+    sha256 = "96d3a6747f17622ccf01af4a451a10f6f053f35167a3219dacd51e0c82fe960b"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.i686-w64-mingw32.tar.gz"
+[[xxHash]]
+arch = "powerpc64le"
+git-tree-sha1 = "54afa14185614e1a6276e8350a0a4dbfc44c1e32"
+libc = "glibc"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "abe1d5e53b4f750fcaa61d5f9f3d90a89a0af9868e4ec107f127daf244097f53"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.powerpc64le-linux-gnu.tar.gz"
+[[xxHash]]
+arch = "riscv64"
+git-tree-sha1 = "e745d9cfbc1556630e4bc08761d9781e213591cb"
+libc = "glibc"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "8b5aa89b451be59c312dad5f19e531177bffb71e073e56d81ce1b6efa391972a"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.riscv64-linux-gnu.tar.gz"
+[[xxHash]]
+arch = "x86_64"
+git-tree-sha1 = "168dd713277e9840563453d00196c5d1d8bc9171"
+os = "macos"
+
+    [[xxHash.download]]
+    sha256 = "70709d76a5ee49043204a395264e141790e63dd6d5442b7f01488f56a3c254a4"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.x86_64-apple-darwin.tar.gz"
+[[xxHash]]
+arch = "x86_64"
+git-tree-sha1 = "1ca5aff5effe7c3a031f61fd66839ca248c3b555"
+libc = "glibc"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "ce52cb06b9657bd4d9ea6ef995d953a3dd45f89b4fb3eb9ef4f30e2ebc024087"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.x86_64-linux-gnu.tar.gz"
+[[xxHash]]
+arch = "x86_64"
+git-tree-sha1 = "dbb1d38105af3d57c813d3f6edee03ab85df2f80"
+libc = "musl"
+os = "linux"
+
+    [[xxHash.download]]
+    sha256 = "e68ee8ca966adcd83ac576eef1b000f04d42bbff9923358977b385e0902f3bc6"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.x86_64-linux-musl.tar.gz"
+[[xxHash]]
+arch = "x86_64"
+git-tree-sha1 = "e7146caaf9547a93464c9cbdd539a134b46a0141"
+os = "freebsd"
+
+    [[xxHash.download]]
+    sha256 = "a3464d7d6c0207bac612b74e9e763835b199d0942c72d4fcafbaae50edabe728"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.x86_64-unknown-freebsd.tar.gz"
+[[xxHash]]
+arch = "x86_64"
+git-tree-sha1 = "9977f8e8bfc885df831b696d0b304b1db93293ba"
+os = "windows"
+
+    [[xxHash.download]]
+    sha256 = "b59772ab8f44e17ef3430c25c244b483fa7d9dd8ff00bbd975ab9e57f7b3487d"
+    url = "https://github.com/JuliaBinaryWrappers/xxHash_jll.jl/releases/download/xxHash-v0.8.3+0/xxHash.v0.8.3.x86_64-w64-mingw32.tar.gz"
