@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("xxHash")
-JLLWrappers.@generate_main_file("xxHash", UUID("5fdcd639-92d1-5a06-bf6b-28f2061df1a9"))
+JLLWrappers.@generate_main_file("xxHash", Base.UUID("5fdcd639-92d1-5a06-bf6b-28f2061df1a9"))
 end  # module xxHash_jll
